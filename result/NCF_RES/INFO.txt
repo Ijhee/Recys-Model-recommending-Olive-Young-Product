@@ -1,0 +1,29 @@
+[ GRAPH ]
+모델마다 train_loss, val_loss plot 및 두 loss를 같이 그린 plot(train_val_loss)가 있음
+모델마다 HR, NDCG 값을 비교
+
+1. GMF & MLP, NMF
+- train_loss
+- val_loss
+- HR
+- NDCG
+- train_val_loss
+
+2. GMF, MLP, NMF 간의 HR, NDCG 값 비교
+- model_HR
+- model_NDCG
+
+* Code : Visualization.ipynb 로 진행했음
+* 데이터 : gmf_train_val_res.xlsx
+	 mlp_train_val_res.xlsx
+	 nmf_train_val_res.csv
+
+[ 모델 결과 ]
+유저별로 어떤 아이템을 추천할지에 대한 최종 데이터프레임
+
+* 데이터 : NCF_Res_GMF.csv
+	 NCF_Res_MLP.csv
+	 NCF_RES_NMF.csv
+
+[PPT]
+NCF Process -> 거의 완성
